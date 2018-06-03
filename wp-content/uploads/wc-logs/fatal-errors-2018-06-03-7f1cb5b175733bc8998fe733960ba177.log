@@ -1,0 +1,9 @@
+2018-06-03T18:49:08+00:00 CRITICAL Uncaught Error: Class 'PharData' not found in /customers/f/2/4/onbl.co.uk/httpd.www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php:269
+Stack trace:
+#0 /customers/f/2/4/onbl.co.uk/httpd.www/wp-includes/class-wp-hook.php(298): WC_Geolocation::update_database()
+#1 /customers/f/2/4/onbl.co.uk/httpd.www/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /customers/f/2/4/onbl.co.uk/httpd.www/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /customers/f/2/4/onbl.co.uk/httpd.www/wp-cron.php(117): do_action_ref_array('woocommerce_geo...', Array)
+#4 {main}
+  thrown
+
